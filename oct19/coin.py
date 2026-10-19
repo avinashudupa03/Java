@@ -1,0 +1,17 @@
+t=(10,20,30,40,50)
+print(t[0:3])
+print(len(t))
+print(t.count(30))
+print(10 in t)
+t1=(30,29,10,40,42)
+print(t1+t)
+print(t*2)
+print(max(t))
+print(min(t1))
+print(sorted(t1))
+t2=(2,3,4)
+first,sec,third=t2
+print(first)
+l1=[1,2,3]
+print(tuple(l1))
+print(list(t))
